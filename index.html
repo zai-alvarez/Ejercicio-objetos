@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lección 2.6: Objetos</title>
+    <link
+      rel="stylesheet"
+      href="http://beta.adalab.es/resources/stylesheets/all.css"
+    />
+  </head>
+
+  <body class="page">
+    <h1 class="title--big">Clientas</h1>
+    <table class="table js_table">
+      <tr class="bold">
+        <td>ID</td>
+        <td>Nombre</td>
+        <td>Sector</td>
+        <td>Contacto</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>General Motors</td>
+        <td>Vehículos con motor</td>
+        <td>Mary T. Barra</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>Anthem</td>
+        <td>Seguros médicos</td>
+        <td>Gail K. Boudreaux</td>
+      </tr>
+      <tr>
+        <td>33</td>
+        <td>Citigroup</td>
+        <td>Banco</td>
+        <td>Jane Fraser</td>
+      </tr>
+      <tr>
+        <td>35</td>
+        <td>UPS</td>
+        <td>Mensajería</td>
+        <td>Carol B. Tomé</td>
+      </tr>
+      <tr>
+        <td>66</td>
+        <td>Best Buy</td>
+        <td>Grandes almacenes</td>
+        <td>Corie S. Barry</td>
+      </tr>
+    </table>
+
+    <form action="">
+      <h3 class="mt-1">Nuevo cliente</h3>
+      <label class="form__label"
+        >ID:
+        <input
+          class="form__input-text js_id"
+          type="text"
+          name="corpId"
+          id="corpId"
+      /></label>
+      <label class="form__label"
+        >Nombre:
+        <input
+          class="form__input-text js_name"
+          type="text"
+          name="corpName"
+          id="corpName"
+      /></label>
+      <label class="form__label"
+        >Sector:
+        <input
+          class="form__input-text js_business"
+          type="text"
+          name="corpBusiness"
+          id="corpBusiness"
+      /></label>
+      <label class="form__label"
+        >Contacto:
+        <input
+          class="form__input-text js_contact"
+          type="text"
+          name="corpContact"
+          id="corpContact"
+      /></label>
+      <input class="form__btn js_button" type="submit" value="Guardar" />
+    </form>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
